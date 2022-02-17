@@ -4,8 +4,8 @@
 f(Z(n)) = Z(n+1) = (Z(n))^2 + C
 Z(n) = a + bi, c = cr + ci
 f(Z(n)) = a^2 - b^2 + cr + (2ab + ci)
-zr = a^2 - b^2 + cr
-zi = 2ab + ci
+zr = a^2 - b^2 + cr (등비수열 실수부분)
+zi = 2ab + ci		(등비수열 허수부분)
 위 식은 무하루프를 돌 수 있기떄문에 두가지 종료조건 필요함
 | a^2 - b^2 + cr | > 4
 1. 4를 넘어가면 스케일에서 벗어나므로 그릴수 없음
@@ -99,7 +99,7 @@ void	draw_fractal(t_fractol *f)
 		while (++x < RESOULTION)
 		{
 			depth = f->blueprint(f, (x / f->scale), (y / f->scale)); //설정된 설계도로 등비수열 진행후, 마지막 n값을 가져온다.
-			rgb_xy = (y * f->mlx.size_line) + (x * (f->mlx.bpp / 8)); //mlx의 화면의 전체픽셀중 세로(실제 할당된 세로사이즈), 가로(비트당 픽셀/8)씩 이동하면서 채움(픽셀 하나당 4바이트)
+			rgb_xy = (y * f->mlx.size_line) + (x * (f->mlx.bpp / 8)); //mlx의 화면의 전체픽셀중 세로(y * 실제 할당된 가로사이즈), 가로(x * 비트당 픽셀/8)씩 이동하면서 채움(픽셀 하나당 4바이트)
 			f->mlx.addr[rgb_xy] = f->b_rgb + (depth * 3.8); //화려하게 표현하기 위해 파란색의 수치를 3.8(무작위 수)만큼 변형해서 현재 픽셀에 섞기
 			f->mlx.addr[rgb_xy + 1] = f->g_rgb + (depth * 2.2); //현재픽셀에 같은방식으로 초록색 섞기
 			f->mlx.addr[rgb_xy + 2] = f->r_rgb + (depth * 5.2); //현재픽셀에 같은방식으로 붉은색 섞기

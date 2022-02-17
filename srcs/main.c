@@ -9,8 +9,8 @@ void	init_fractal(t_fractol *f, int argc, char **argv)
 		f->blueprint = mandelbrot; //첫인자가 m이면 망델브로로 설계예정
 	else
 		f->blueprint = bonus; //첫인자가 b면 추가한 프렉탈로 설계예정
-	f->xr = -2.0; //
-	f->yi = -2.0;
+	f->xr = -2.0; //x좌표 가장 왼쪽 (x범위 -2.0 ~ 2.0)
+	f->yi = -2.0; //y좌표 가장 위쪽 (y범위 -2.0 ~ 2.0)
 	f->iter_max = 500; //등비급수의 최대 n을 기본 500으로 설정 
 	if (argv[2])
 		f->iter_max = ft_atoi(argv[2]); //만약 등비급수의 횟수가 인자로 들어오면 그 횟수만큼 지정
