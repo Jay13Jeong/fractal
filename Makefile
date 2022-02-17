@@ -1,9 +1,9 @@
 NAME	= fractol
-SRCS	= srcs/main.c srcs/draw.c srcs/event.c srcs/f2a.c
+SRCS	= srcs/main.c srcs/draw.c srcs/event.c srcs/a2f.c
 OBJS	= ${SRCS:.c=.o}
 LIBFT_A = libft/libft.a
 HEADER  = -I./includes/
-LIBX	= minilibx_opengl_20191021
+LIBX	= mlx
 CC	  = gcc
 CFLAGS  = -Wall -Wextra -Werror
 
