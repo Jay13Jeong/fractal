@@ -1,2 +1,4 @@
 # fractal
-my mini graphic project
+create graphically beautiful fractals
+<br>
+https://velog.io/@jay13jeong/Fractal
