@@ -12,3 +12,8 @@ ex) "./fractol j 1000" or "./fractol m 1000" or "./fractol b 1000"<br>
 Please refer to the following blog for instructions.<br>
   
 https://velog.io/@jay13jeong/Fractal
+
+<br>
+<img width="889" alt="44" src="https://user-images.githubusercontent.com/63899204/160736618-ec49ec93-0cf9-4828-8613-6896deeb61bb.png">
+<img width="887" alt="45" src="https://user-images.githubusercontent.com/63899204/160736623-58ddf4cd-2ec8-4683-ae52-c078ba50056a.png">
+<img width="894" alt="55" src="https://user-images.githubusercontent.com/63899204/160736624-92ac14c3-a91c-470c-9f55-c3e26bcb09cf.png">
