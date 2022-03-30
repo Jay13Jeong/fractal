@@ -14,6 +14,7 @@ Please refer to the following blog for more information.<br>
 https://velog.io/@jay13jeong/Fractal
 
 <br>
-<img width="889" alt="44" src="https://user-images.githubusercontent.com/63899204/160736618-ec49ec93-0cf9-4828-8613-6896deeb61bb.png">
-<img width="887" alt="45" src="https://user-images.githubusercontent.com/63899204/160736623-58ddf4cd-2ec8-4683-ae52-c078ba50056a.png">
-<img width="894" alt="55" src="https://user-images.githubusercontent.com/63899204/160736624-92ac14c3-a91c-470c-9f55-c3e26bcb09cf.png">
+<img width="auto" alt="44" src="https://user-images.githubusercontent.com/63899204/160736618-ec49ec93-0cf9-4828-8613-6896deeb61bb.png">
+<img width="auto" alt="45" src="https://user-images.githubusercontent.com/63899204/160736623-58ddf4cd-2ec8-4683-ae52-c078ba50056a.png">
+<img width="auto" alt="55" src="https://user-images.githubusercontent.com/63899204/160736624-92ac14c3-a91c-470c-9f55-c3e26bcb09cf.png">
+<img width="auto" alt="15" src="https://user-images.githubusercontent.com/63899204/160743717-0c5e2eee-663a-4e62-90ae-3c98f0e1ca87.png">
